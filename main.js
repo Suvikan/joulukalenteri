@@ -6,7 +6,7 @@ const calendarDays = 24;
 const openDoor = (path, event) => {
     event.target.parentNode.style.backgroundImage = `url(${path})`;
     event.target.style.opacity = "0";
-    event.target.style.backgroundColor= "#521751";
+    event.target.style.backgroundColor= "#FFF";
 }
 
 const createCalendar = () => {
@@ -23,7 +23,7 @@ const createCalendar = () => {
         calendarDoor.appendChild(calendarDoorText);
 
         doorNumber = i +1;
-        let doorPath = `./images/door-${doorNumber}.jpg`;
+        let doorPath = `./images/door-${doorNumber}.jpeg`;
 
         calendarDoorText.addEventListener("click", openDoor.bind(null, doorPath));
     }
