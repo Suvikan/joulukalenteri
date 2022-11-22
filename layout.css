@@ -21,6 +21,7 @@
     /*background-image: url("");
     background-size: cover;*/
     background-color: aliceblue;
+    box-shadow: 6px 6px 20px gray;
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(6,1fr);
@@ -44,4 +45,5 @@
     color: white;
     padding: 10px;
     border: 2px solid black;
+    transition: opacity 2.5s;
 }
