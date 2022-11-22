@@ -29,4 +29,5 @@ const createCalendar = () => {
     }
 }
 
-calendarButton.addEventListener("click", createCalendar);
+/*calendarButton.addEventListener("click", createCalendar);*/
+window.onload = createCalendar;
