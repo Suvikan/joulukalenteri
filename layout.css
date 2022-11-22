@@ -1,6 +1,48 @@
-html {
-    font-size: 62.5%;
+* {
+    box-sizing: border-box;
 }
-body {
-    font-family: 'Courier New', Courier, monospace;
+
+.btn-start{
+    background-color: red;
+    color: white;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    margin: 15px auto;
+    display: block;
+    width: 10rem;
+    height: 2rem;
+}
+
+.container {
+    width: 800px;
+    height: 900px;
+    border: 5px solid black;
+    margin: 15px auto;
+    /*background-image: url("");
+    background-size: cover;*/
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas: /*nimetään alueet*/ 
+        "door9 door6 door11 door7"
+        "door3 door20 door16 door2"
+        "door14 door12 door19 door15"
+        "door22 door1 door5 door23"
+        "door17 door10 door24 door21"
+        "door8 door18 door4 door13"; 
+}
+
+.image {
+    background-color: green;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+}
+.text {
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
 }
