@@ -34,8 +34,7 @@
 }
 
 .image {
-    background-color: green;
-    background-image: url("");
+    background-image: none;
     background-size: cover;
     background-position: center;
 }
